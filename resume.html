@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        :root{--bg:#0f1724;--card:#0b1220;--accent:#00d4ff;--muted:#9aa4b2}
+        *{box-sizing:border-box}
+        body{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background:var(--bg);color:#e6eef6;margin:0;padding:40px;display:flex;justify-content:center;align-items:flex-start;min-height:100vh}
+        .container{max-width:780px;width:100%;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:28px;border-radius:12px;box-shadow:0 18px 40px rgba(2,6,23,0.6)}
+        h1{margin:0 0 10px;color:var(--accent);font-size:1.8rem}
+        p{color:#cbd6e5;margin:0}
+        .download{display:inline-block;margin-top:18px;padding:10px 16px;background:linear-gradient(90deg,var(--accent),#7ef6ff);color:#041025;border-radius:10px;text-decoration:none;font-weight:600;box-shadow:0 8px 20px rgba(0,212,255,0.08)}
+        .download:hover{transform:translateY(-3px);box-shadow:0 20px 40px rgba(0,212,255,0.12);transition:transform .18s,box-shadow .18s}
+        @media (max-width:600px){body{padding:20px}.container{padding:18px}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Resume</h1>
+        <p>This is where you can find my resume. Please feel free to download it or contact me for more information.</p>
+        <a class="download" href="herresume.pdf" download>Download My Resume</a>
+    </div>
+    
+</body>
+</html>
